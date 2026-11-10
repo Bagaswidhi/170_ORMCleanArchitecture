@@ -8,7 +8,15 @@ module.exports = (sequelize, DataTypes) => {
         title:{
             type: DataTypes.STRING,
             allowNull: false
-        }
+        }, 
+        description:{
+            type: DataTypes.STRING,
+
+        },
+        author:{
+            type: DataTypes.STRING,
+            alllowNull: false
+        },
     });
     return Komiks;
 }
